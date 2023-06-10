@@ -45,10 +45,9 @@ const estado = reactive({
                     <option value="multiplicacao">Multiplicação</option>
                     <option value="divisao">Divisão</option>
                 </select>
+                <label>Resultado da conta: {{ estado.resultado }}</label> 
             </div>
-                <div class="mt-5">
-                    <label>Resultado da conta: {{ estado.resultado }}</label>
-                </div>    
+                      
             </div>
         </form>
         
